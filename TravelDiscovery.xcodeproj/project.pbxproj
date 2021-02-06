@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E77DA20C25CE1ABF002576D2 /* TravelDiscoveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77DA20B25CE1ABF002576D2 /* TravelDiscoveryApp.swift */; };
+		E77DA20E25CE1ABF002576D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77DA20D25CE1ABF002576D2 /* ContentView.swift */; };
+		E77DA21025CE1AC0002576D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E77DA20F25CE1AC0002576D2 /* Assets.xcassets */; };
+		E77DA21325CE1AC0002576D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E77DA21225CE1AC0002576D2 /* Preview Assets.xcassets */; };
+		E77DA21E25CE1AC1002576D2 /* TravelDiscoveryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77DA21D25CE1AC1002576D2 /* TravelDiscoveryTests.swift */; };
+		E77DA22925CE1AC1002576D2 /* TravelDiscoveryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77DA22825CE1AC1002576D2 /* TravelDiscoveryUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E77DA21A25CE1AC1002576D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E77DA20025CE1ABF002576D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E77DA20725CE1ABF002576D2;
+			remoteInfo = TravelDiscovery;
+		};
+		E77DA22525CE1AC1002576D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E77DA20025CE1ABF002576D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E77DA20725CE1ABF002576D2;
+			remoteInfo = TravelDiscovery;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E77DA20825CE1ABF002576D2 /* TravelDiscovery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelDiscovery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77DA20B25CE1ABF002576D2 /* TravelDiscoveryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelDiscoveryApp.swift; sourceTree = "<group>"; };
+		E77DA20D25CE1ABF002576D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E77DA20F25CE1AC0002576D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E77DA21225CE1AC0002576D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E77DA21425CE1AC0002576D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E77DA21925CE1AC1002576D2 /* TravelDiscoveryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelDiscoveryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77DA21D25CE1AC1002576D2 /* TravelDiscoveryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelDiscoveryTests.swift; sourceTree = "<group>"; };
+		E77DA21F25CE1AC1002576D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E77DA22425CE1AC1002576D2 /* TravelDiscoveryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelDiscoveryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77DA22825CE1AC1002576D2 /* TravelDiscoveryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelDiscoveryUITests.swift; sourceTree = "<group>"; };
+		E77DA22A25CE1AC1002576D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E77DA20525CE1ABF002576D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77DA21625CE1AC1002576D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77DA22125CE1AC1002576D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E77DA1FF25CE1ABF002576D2 = {
+			isa = PBXGroup;
+			children = (
+				E77DA20A25CE1ABF002576D2 /* TravelDiscovery */,
+				E77DA21C25CE1AC1002576D2 /* TravelDiscoveryTests */,
+				E77DA22725CE1AC1002576D2 /* TravelDiscoveryUITests */,
+				E77DA20925CE1ABF002576D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E77DA20925CE1ABF002576D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E77DA20825CE1ABF002576D2 /* TravelDiscovery.app */,
+				E77DA21925CE1AC1002576D2 /* TravelDiscoveryTests.xctest */,
+				E77DA22425CE1AC1002576D2 /* TravelDiscoveryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E77DA20A25CE1ABF002576D2 /* TravelDiscovery */ = {
+			isa = PBXGroup;
+			children = (
+				E77DA20B25CE1ABF002576D2 /* TravelDiscoveryApp.swift */,
+				E77DA20D25CE1ABF002576D2 /* ContentView.swift */,
+				E77DA20F25CE1AC0002576D2 /* Assets.xcassets */,
+				E77DA21425CE1AC0002576D2 /* Info.plist */,
+				E77DA21125CE1AC0002576D2 /* Preview Content */,
+			);
+			path = TravelDiscovery;
+			sourceTree = "<group>";
+		};
+		E77DA21125CE1AC0002576D2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E77DA21225CE1AC0002576D2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E77DA21C25CE1AC1002576D2 /* TravelDiscoveryTests */ = {
+			isa = PBXGroup;
+			children = (
+				E77DA21D25CE1AC1002576D2 /* TravelDiscoveryTests.swift */,
+				E77DA21F25CE1AC1002576D2 /* Info.plist */,
+			);
+			path = TravelDiscoveryTests;
+			sourceTree = "<group>";
+		};
+		E77DA22725CE1AC1002576D2 /* TravelDiscoveryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E77DA22825CE1AC1002576D2 /* TravelDiscoveryUITests.swift */,
+				E77DA22A25CE1AC1002576D2 /* Info.plist */,
+			);
+			path = TravelDiscoveryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E77DA20725CE1ABF002576D2 /* TravelDiscovery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77DA22D25CE1AC1002576D2 /* Build configuration list for PBXNativeTarget "TravelDiscovery" */;
+			buildPhases = (
+				E77DA20425CE1ABF002576D2 /* Sources */,
+				E77DA20525CE1ABF002576D2 /* Frameworks */,
+				E77DA20625CE1ABF002576D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TravelDiscovery;
+			productName = TravelDiscovery;
+			productReference = E77DA20825CE1ABF002576D2 /* TravelDiscovery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E77DA21825CE1AC1002576D2 /* TravelDiscoveryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77DA23025CE1AC1002576D2 /* Build configuration list for PBXNativeTarget "TravelDiscoveryTests" */;
+			buildPhases = (
+				E77DA21525CE1AC1002576D2 /* Sources */,
+				E77DA21625CE1AC1002576D2 /* Frameworks */,
+				E77DA21725CE1AC1002576D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E77DA21B25CE1AC1002576D2 /* PBXTargetDependency */,
+			);
+			name = TravelDiscoveryTests;
+			productName = TravelDiscoveryTests;
+			productReference = E77DA21925CE1AC1002576D2 /* TravelDiscoveryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E77DA22325CE1AC1002576D2 /* TravelDiscoveryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77DA23325CE1AC1002576D2 /* Build configuration list for PBXNativeTarget "TravelDiscoveryUITests" */;
+			buildPhases = (
+				E77DA22025CE1AC1002576D2 /* Sources */,
+				E77DA22125CE1AC1002576D2 /* Frameworks */,
+				E77DA22225CE1AC1002576D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E77DA22625CE1AC1002576D2 /* PBXTargetDependency */,
+			);
+			name = TravelDiscoveryUITests;
+			productName = TravelDiscoveryUITests;
+			productReference = E77DA22425CE1AC1002576D2 /* TravelDiscoveryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E77DA20025CE1ABF002576D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					E77DA20725CE1ABF002576D2 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					E77DA21825CE1AC1002576D2 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = E77DA20725CE1ABF002576D2;
+					};
+					E77DA22325CE1AC1002576D2 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = E77DA20725CE1ABF002576D2;
+					};
+				};
+			};
+			buildConfigurationList = E77DA20325CE1ABF002576D2 /* Build configuration list for PBXProject "TravelDiscovery" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E77DA1FF25CE1ABF002576D2;
+			productRefGroup = E77DA20925CE1ABF002576D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E77DA20725CE1ABF002576D2 /* TravelDiscovery */,
+				E77DA21825CE1AC1002576D2 /* TravelDiscoveryTests */,
+				E77DA22325CE1AC1002576D2 /* TravelDiscoveryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E77DA20625CE1ABF002576D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77DA21325CE1AC0002576D2 /* Preview Assets.xcassets in Resources */,
+				E77DA21025CE1AC0002576D2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77DA21725CE1AC1002576D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77DA22225CE1AC1002576D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E77DA20425CE1ABF002576D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77DA20E25CE1ABF002576D2 /* ContentView.swift in Sources */,
+				E77DA20C25CE1ABF002576D2 /* TravelDiscoveryApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77DA21525CE1AC1002576D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77DA21E25CE1AC1002576D2 /* TravelDiscoveryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77DA22025CE1AC1002576D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77DA22925CE1AC1002576D2 /* TravelDiscoveryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E77DA21B25CE1AC1002576D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E77DA20725CE1ABF002576D2 /* TravelDiscovery */;
+			targetProxy = E77DA21A25CE1AC1002576D2 /* PBXContainerItemProxy */;
+		};
+		E77DA22625CE1AC1002576D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E77DA20725CE1ABF002576D2 /* TravelDiscovery */;
+			targetProxy = E77DA22525CE1AC1002576D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E77DA22B25CE1AC1002576D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E77DA22C25CE1AC1002576D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E77DA22E25CE1AC1002576D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TravelDiscovery/Preview Content\"";
+				DEVELOPMENT_TEAM = KKN37UUKG9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TravelDiscovery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pro.tambovtsev.TravelDiscovery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E77DA22F25CE1AC1002576D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TravelDiscovery/Preview Content\"";
+				DEVELOPMENT_TEAM = KKN37UUKG9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TravelDiscovery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pro.tambovtsev.TravelDiscovery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E77DA23125CE1AC1002576D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KKN37UUKG9;
+				INFOPLIST_FILE = TravelDiscoveryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pro.tambovtsev.TravelDiscoveryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelDiscovery.app/TravelDiscovery";
+			};
+			name = Debug;
+		};
+		E77DA23225CE1AC1002576D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KKN37UUKG9;
+				INFOPLIST_FILE = TravelDiscoveryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pro.tambovtsev.TravelDiscoveryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelDiscovery.app/TravelDiscovery";
+			};
+			name = Release;
+		};
+		E77DA23425CE1AC1002576D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KKN37UUKG9;
+				INFOPLIST_FILE = TravelDiscoveryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pro.tambovtsev.TravelDiscoveryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TravelDiscovery;
+			};
+			name = Debug;
+		};
+		E77DA23525CE1AC1002576D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KKN37UUKG9;
+				INFOPLIST_FILE = TravelDiscoveryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pro.tambovtsev.TravelDiscoveryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TravelDiscovery;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E77DA20325CE1ABF002576D2 /* Build configuration list for PBXProject "TravelDiscovery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77DA22B25CE1AC1002576D2 /* Debug */,
+				E77DA22C25CE1AC1002576D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77DA22D25CE1AC1002576D2 /* Build configuration list for PBXNativeTarget "TravelDiscovery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77DA22E25CE1AC1002576D2 /* Debug */,
+				E77DA22F25CE1AC1002576D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77DA23025CE1AC1002576D2 /* Build configuration list for PBXNativeTarget "TravelDiscoveryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77DA23125CE1AC1002576D2 /* Debug */,
+				E77DA23225CE1AC1002576D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77DA23325CE1AC1002576D2 /* Build configuration list for PBXNativeTarget "TravelDiscoveryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77DA23425CE1AC1002576D2 /* Debug */,
+				E77DA23525CE1AC1002576D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E77DA20025CE1ABF002576D2 /* Project object */;
+}
